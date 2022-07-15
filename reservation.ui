@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>reservation</class>
+ <widget class="QDialog" name="reservation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>959</width>
+    <height>445</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="exit_">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>300</y>
+     <width>421</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>나가기</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="reserv_Table">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>10</y>
+     <width>891</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="horizontalHeaderStretchLastSection">
+    <bool>true</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>reserv_id</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>client_id</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Car_model</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>rental_date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>return_date</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>reserv_price</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="again_btn">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>260</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>새로고침</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="payment_But">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>300</y>
+     <width>421</width>
+     <height>121</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>렌트카 결제</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

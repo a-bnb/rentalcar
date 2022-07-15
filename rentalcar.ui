@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>rentalcar</class>
+ <widget class="QDialog" name="rentalcar">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>997</width>
+    <height>567</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="rentalinquiry">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>641</width>
+     <height>441</height>
+    </rect>
+   </property>
+   <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="horizontalHeaderStretchLastSection">
+    <bool>true</bool>
+   </attribute>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>Car_model</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Car_price</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>oil_type</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Car_stock</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Car_data</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="rentalButton2">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>20</y>
+     <width>311</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>렌트카 예약</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="exit">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>410</y>
+     <width>311</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>나가기</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rentalChange">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>120</y>
+     <width>311</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>렌트카 추가</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rentalRemoval">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>220</y>
+     <width>311</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>렌트카 삭제</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rentalButton1">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>470</y>
+     <width>311</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>조회</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="payment_But2">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>320</y>
+     <width>311</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>렌트카 결제</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

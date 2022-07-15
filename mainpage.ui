@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>mainpage</class>
+ <widget class="QDialog" name="mainpage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>703</width>
+    <height>466</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="contentPush">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>151</width>
+     <height>430</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>관광지 정보</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="userPush">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>20</y>
+     <width>161</width>
+     <height>430</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>회원정보</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rentalPush">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>20</y>
+     <width>171</width>
+     <height>430</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>렌트카 조회</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="chat_btn">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>20</y>
+     <width>161</width>
+     <height>430</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>채팅</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
